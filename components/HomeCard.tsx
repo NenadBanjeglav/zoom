@@ -18,7 +18,7 @@ const HomeCard = ({
 }: Props) => {
   return (
     <div
-      className={`flex min-h-[260px] w-full cursor-pointer flex-col justify-between rounded-[14px] px-4 py-6 xl:max-w-[270px] ${className}`}
+      className={`flex min-h-[260px] w-full cursor-pointer flex-col justify-between rounded-[14px] px-4 py-6 xl:w-full ${className}`}
       onClick={handleClick}
     >
       <div className="glassmorphism flex size-12 items-center justify-center rounded-[10px]">
